@@ -1,0 +1,32 @@
+{
+  "title": "Exercise",
+  "content": "I want to do 50 push-ups",
+  "completed": "False",
+  "created": "29-4-2024"
+},
+{
+  "title": "Race",
+  "content": "I want to run 5 miles",
+  "completed": "True",
+  "created": "29-4-2024"
+},
+{
+  "title": "Read",
+  "content": "Read for 5 hours",
+  "completed": "True",
+  "created": "29-4-2024"
+},
+
+{
+  "title": "Nap",
+  "content": "Nap for 30 minutes",
+  "completed": "True",
+  "created": "30-4-2024"
+},
+
+{
+  "title": "Fishing",
+  "content": "Its a holiday, go Fishing",
+  "completed": "False",
+  "created": "30-4-2024"
+},
