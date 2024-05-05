@@ -193,6 +193,6 @@ DEFAULT_FROM_EMAIL = 'info@jubrilrestauth.com'
 EMAIL_PORT = '2525'
 EMAIL_USE_TLS = True
 
-SWAGGER_SETTINGS = {
-   'USE_SESSION_AUTH': False
-}
+# SWAGGER_SETTINGS = {
+#    'USE_SESSION_AUTH': False
+# }
