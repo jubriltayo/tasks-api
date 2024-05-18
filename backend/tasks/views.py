@@ -19,8 +19,10 @@ class TaskListCreateView(UserQueryMixin, UserPermissionMixin, generics.ListCreat
         serializer.save(user=self.request.user, content=content)
 
 class TaskUncompletedView(UserQueryMixin, UserPermissionMixin, generics.ListAPIView):
-    queryset = Task.objects.filter(completed=False)
+    # queryset = Task.objects.filter(completed=False)
+    queryset = Task.objects.uncompleted()
     serializer_class = TaskSerializer
+    
 
 class TaskDetailView(UserQueryMixin, UserPermissionMixin, generics.RetrieveAPIView):
     queryset = Task.objects.all()

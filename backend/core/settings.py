@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     # installed apps
     'tasks',
     'users',
+    'search',
 
 ]
 
